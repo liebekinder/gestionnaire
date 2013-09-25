@@ -1,45 +1,55 @@
-body, html {
-  	height: 100%;
-/* 	padding:Opx; */
-	margin:0px;
+body,html {
+	height: 100%;
+	/* 	padding:Opx; */
+	margin: 0px;
 	font-family: arial, times, sans-serif;
-	overflow: hidden;
-	
+	/* 	overflow: hidden; */
 }
+
+/*************************************/
+/*			general behavior	     */
+/*************************************/
+
+.padding5{
+	padding: 5px;
+}
+
 
 /*************************************/
 /*				index.php            */
 /*************************************/
-
-#generaltable{
+#generaltable {
 	border-collapse: collapse;
-	width:100%;
-	height:100%;
+	width: 100%;
+	height: 100%;
 }
 
-#header{
-	height:50px;
-	background:rgba(67,67,67,0.5);
+#header {
+	height: 50px;
+	background: rgba(67, 67, 67, 0.5);
 }
 
-#content{
-	height:100%;
-	background:rgba(150,150,150,0.5);
+#content {
+	height: 100%;
+	background: rgba(150, 150, 150, 0.5);
 }
 
-#contentDiv{
-	width:100%;
-	height:100%;
+#contentDiv {
+	width: 100%;
+	height: 100%;
 }
 
-#leftPart{
-	float:left;	
-	height:100%;
-	width:200px;
-	
+#leftPart {
+	float: left;
+	height: 100%;
+	width: 300px;
+	border: 1px solid black;
+	background: white;
 }
 
-#rightPart{	
-	height:100%;
-	width:auto;
+#rightPart {
+	height: 100%;
+	margin-left: 305px;
+	border: 1px solid black;
+	background: white;
 }

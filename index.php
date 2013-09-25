@@ -13,11 +13,12 @@
 	<table id="generaltable">
 		<tr id="header">
 			<td>
+			<?php include 'include/header.php';?>
 			</td>
 		</tr>
 		<tr id="content">
-			<td>
-				<div id="contentDiv">
+			<td class="padding5">
+<!-- 				<div id="contentDiv"> -->
 					<!-- part of the page used to show the tree view of the folders -->
 					<div id="leftPart">
 					
@@ -27,7 +28,7 @@
 					<div id="rightPart">
 					
 					</div>
-				</div>
+<!-- 				</div> -->
 			</td>
 		</tr>
 	</table>
